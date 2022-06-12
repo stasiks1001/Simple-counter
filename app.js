@@ -1,12 +1,13 @@
+let value = document.querySelector("h2")
+
+let count = 0
+
 function incrementValue() {
-  let value = parseInt(document.getElementById("number").value, 10);
-  value = isNaN(value) ? 0 : value;
-  value++;
-  document.getElementById("number").value = value;
+    count = count + 1
+    value.innerText = count
 }
+
 function decrementValue() {
-  let value = parseInt(document.getElementById("number").value, 10);
-  value = isNaN(value) ? 0 : value;
-  value--;
-  document.getElementById("number").value = value;
+  count = count - 1
+  value.innerText = count
 }

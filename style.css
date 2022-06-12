@@ -6,6 +6,7 @@
 
 body {
   background: url(./images.jpeg);
+  text-align: center;
 }
 
 .main {
@@ -25,14 +26,18 @@ body {
   padding-bottom: 20px;
 }
 
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .main p:nth-of-type(1) {
   padding-bottom: 20px;
 }
 
 input[type="result"] {
-  justify-content: center;
-  width: 100%;
-  padding-left:45%;
+  
   margin-bottom: 10px;
   background: greenyellow;
   font-size: 30px;
